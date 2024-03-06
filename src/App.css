@@ -1,0 +1,160 @@
+.intro-App {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 221, 86, 0.8), rgba(255, 102, 0, 0.8)), url('./assets/background.webp');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.updated-App {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 221, 86, 0.8), rgba(255, 102, 0, 0.8)), url('./assets/background.webp');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.top {
+    display: flex;
+}
+.intro-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-logo img{
+    width: 35%;
+}
+.intro-reset {
+    display: none;
+}
+.intro-commit {
+    display: none;
+}
+
+.updated-logo img{
+    width: 15%;
+    margin: 20px;
+}
+.intro-upload {
+    box-shadow: 0 5px 2px -2px black;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 3rem;
+}
+.updated-upload {
+    display: none;
+}
+
+.intro-fileInput {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.intro-fileInput + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #c50a2c;
+    display: inline-block;
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    margin: 10px;
+}
+.intro-fileInput:focus + label,
+.intro-fileInput + label:hover {
+    background-color: #ff002f;
+    box-shadow: 0px 0px 10px 5px #720519;
+}
+.intro-fileInput + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.updated-fileInput {
+    display: none;
+}
+label {
+    display: none;
+}
+
+.updated-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20vw;
+    gap: 95%;
+    margin-bottom: 50px;
+}
+.updated-buttons button {
+    color: white;
+    background: #c50a2c;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 25px;
+}
+.updated-buttons button:hover{
+    background-color: #ff002f;
+    box-shadow: 0px 0px 10px 5px #720519;   
+}
+
+
+table {
+    background-color: #ffaf37;
+    width: 95%;
+    border: 2px solid rgb(255, 134, 20);
+    border-radius: 25px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+th {
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+td {
+    box-shadow: 0 0px 5px -2px black;
+    border-radius: 25px;
+    padding: 5px;
+}
+.pic {
+    color: white;
+    border: none;
+    background: #c50a2c;
+    border-radius: 25px;
+    padding: 5px;
+}
+.pic:hover {
+    background-color: #ff002f;
+    box-shadow: 0px 0px 10px 5px #720519; 
+}
+input {
+    padding: 5px;
+    width: 15%;
+    background: #c50a2c;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.sub-container {
+    background: #720519;
+}
+.sub-container button{
+    border: none;
+    background: none;
+    color: white;
+}
